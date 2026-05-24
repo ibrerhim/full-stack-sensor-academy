@@ -1,0 +1,6 @@
+{
+  "name": "Sensor Academy",
+  "description": "An interactive, elegant, and mobile-friendly educational learning platform offering students past papers, video lessons, revision books, interactive timed quizzes, and AI tutoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

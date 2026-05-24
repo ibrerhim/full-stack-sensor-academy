@@ -1,0 +1,39 @@
+// prisma/schema.prisma
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id              String        @id @default(uuid())
+  email           String        @unique
+  passwordHash    String
+  fullName        String
+  studentClass    String        @default("GCE")
+  joinedAt        DateTime      @default(now())
+  isAdmin         Boolean       @default(false)
+  avatarUrl       String?
+  // Array types represented as JSON lists for robust platform support
+  bookmarks       Json          @default("{\"papers\":[],\"videos\":[],\"books\":[]}")
+  completedVideos Json          @default("[]")
+  quizAttempts    QuizAttempt[]
+}
+
+model QuizAttempt {
+  id             String   @id @default(uuid())
+  userId         String
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  quizId         String
+  quizTitle      String
+  subject        String
+  score          Int
+  totalQuestions Int
+  percentage     Int
+  takenAt        DateTime @default(now())
+  answers        Json     // Stores answer mappings mapping custom question IDs to selected options string
+}
