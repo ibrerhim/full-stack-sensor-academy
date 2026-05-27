@@ -16,7 +16,7 @@ export const INITIAL_VIDEOS: Video[] = [
     duration: '18:45',
     subject: 'Mathematics',
     level: 'Form 4',
-    videoUrl: 'https://www.youtube.com/embed/SFC83IUP8Z4', // Real educational video style if embedded
+    videoUrl: 'https://www.youtube.com/embed/0qKZK1Qd-ps', // Real educational video style if embedded
     thumbnail: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&auto=format&fit=crop&q=60',
     description: 'Master the quadratic formula, factorization method, and solving by completing the square. Includes standard exam questions solved step-by-step.',
     uploadedAt: '2026-05-10',
@@ -28,7 +28,7 @@ export const INITIAL_VIDEOS: Video[] = [
     duration: '14:20',
     subject: 'English Language',
     level: 'GCE',
-    videoUrl: 'https://www.youtube.com/embed/9N2_3-3_h14', // Placeholder embedded
+    videoUrl: 'https://www.youtube.com/embed/aS2PTxUILFY', // Placeholder embedded
     thumbnail: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=60',
     description: 'Learn structure, hook, vocabulary choices, and figurative devices required to score maximum marks on narrative compositions in exam settings.',
     uploadedAt: '2026-05-12',
@@ -40,7 +40,7 @@ export const INITIAL_VIDEOS: Video[] = [
     duration: '22:15',
     subject: 'Biology',
     level: 'Grade 10',
-    videoUrl: 'https://www.youtube.com/embed/jZz7BfWcWwA',
+    videoUrl: 'https://www.youtube.com/embed/3Jzb9LqEPhs',
     thumbnail: 'https://images.unsplash.com/photo-1530026405186-ed1ea0ac7a63?w=600&auto=format&fit=crop&q=60',
     description: 'Visual demonstration of active transport, diffusion, and osmosis across membranes. Exam focus on plant cell turgidity experiments.',
     uploadedAt: '2026-05-15',
@@ -52,7 +52,7 @@ export const INITIAL_VIDEOS: Video[] = [
     duration: '25:30',
     subject: 'Chemistry',
     level: 'Grade 11',
-    videoUrl: 'https://www.youtube.com/embed/I99gK8l_6k0',
+    videoUrl: 'https://www.youtube.com/embed/uRse40KT-84',
     thumbnail: 'https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=600&auto=format&fit=crop&q=60',
     description: 'Core concepts of ionic, covalent, and metallic bonding, as well as period 3 element trends and atomic structure definitions.',
     uploadedAt: '2026-05-18',
@@ -64,7 +64,7 @@ export const INITIAL_VIDEOS: Video[] = [
     duration: '19:50',
     subject: 'ICT',
     level: 'Grade 12',
-    videoUrl: 'https://www.youtube.com/embed/k9WqpQp8QS0',
+    videoUrl: 'https://www.youtube.com/embed/JzJ8xL4Eq8U',
     thumbnail: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=600&auto=format&fit=crop&q=60',
     description: 'Familiarize yourself with fundamental programming logic, NAND/A/OR gates, truth tables, and exam pseudocode parsing.',
     uploadedAt: '2026-05-20',
